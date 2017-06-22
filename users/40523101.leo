@@ -48,7 +48,12 @@
 </v>
 </v>
 <v t="yen.20161011122932.1" a="E"><vh>第四頁</vh>
+<v t="leo.20170623041619.1" a="E"><vh>newHeadline</vh>
+<v t="leo.20170623041607.1"><vh>newHeadline</vh></v>
+</v>
+<v t="leo.20170623041608.1" a="E"><vh>newHeadline</vh>
 <v t="yen.20161011122601.1"><vh>第四頁內容</vh></v>
+</v>
 </v>
 <v t="yen.20161011125115.1" a="E"><vh>第五頁</vh>
 <v t="yen.20161016011920.1"><vh>第五頁內容</vh></v>
@@ -1042,7 +1047,7 @@ Ubuntu 作業系統
    &lt;/script&gt;
    
    &lt;/section&gt;</t>
-<t tx="leo.20170623023858.1">設定網路ipv6
+<t tx="leo.20170623023858.1">設定網路ipv6Windows 作業系統
 &lt;br/&gt;
 [ipv6 2001:288:6004:17::7]
 &lt;br/&gt;
@@ -1050,17 +1055,15 @@ Ubuntu 作業系統
 &lt;br/&gt;
 2001:b000:168::1中華電信
 &lt;br/&gt;
-Windows 作業系統
+1.網路和網際網路
 &lt;br/&gt;
-網路和網際網路
+2.變更介面卡設定
 &lt;br/&gt;
-變更介面卡設定
+3.區域連線
 &lt;br/&gt;
-區域連線
+4.網際網路通訊協定第六版
 &lt;br/&gt;
-網際網路通訊協定第六版
-&lt;br/&gt;
-手動設定 IPv6 位址</t>
+5.手動設定 IPv6 位址&lt;a href="https://raw.githubusercontent.com/s40523101/2017springwcm_hw/gh-pages/jpg/%E6%9C%AA%E5%91%BD%E5%90%8D.png"&gt;&lt;img src="https://raw.githubusercontent.com/s40523101/2017springwcm_hw/gh-pages/jpg/%E6%9C%AA%E5%91%BD%E5%90%8D.png"width="350" height="350" title="source: imgur.com" /&gt;&lt;/a&gt;</t>
 <t tx="leo.20170623024705.1">在nginx上redecorate
 &lt;br/&gt;
 從hppts跳轉stunnel hppts
@@ -1099,7 +1102,7 @@ config 改密碼
    &lt;/script&gt;
    
    &lt;/section&gt;</t>
-<t tx="yen.20161011122601.1">製作網路線
+<t tx="leo.20170623041607.1">製作網路線
 &lt;br/&gt;
 首先準備好材料: 8蕊網路線 RJ-45接頭 剪刀 壓線鉗
 &lt;br/&gt;
@@ -1107,13 +1110,28 @@ config 改密碼
 &lt;br/&gt;
 網路線有2種接法
 &lt;br/&gt;
+&lt;a href="https://raw.githubusercontent.com/s40523101/2017springwcm_hw/gh-pages/jpg/%E6%9C%AA%E5%91%BD%E5%90%8D.jpg"&gt;&lt;img src="https://raw.githubusercontent.com/s40523101/2017springwcm_hw/gh-pages/jpg/%E6%9C%AA%E5%91%BD%E5%90%8D.jpg"width="350" height="350" title="source: imgur.com" /&gt;&lt;/a&gt;</t>
+<t tx="leo.20170623041608.1">&lt;section data-markdown&gt;
+    &lt;script type=''text/template''&gt;
+@others
+   &lt;/script&gt;
+   
+   &lt;/section&gt;</t>
+<t tx="leo.20170623041619.1">&lt;section data-markdown&gt;
+    &lt;script type=''text/template''&gt;
+@others
+   &lt;/script&gt;
+   
+   &lt;/section&gt;</t>
+<t tx="yen.20161011122601.1">
+&lt;br/&gt;
 兩種規格T568A及T586B
 &lt;br/&gt;
 一般傳輸用網路線 (兩端的網路頭皆為以下接法) 白橙、橙、白綠、藍、白藍、綠、白棕、棕 
 &lt;br/&gt;
-稱跳接法
+跳接法
 &lt;br/&gt;
-一頭以正常傳輸色對接法、另一頭則為以下接法) 白綠、綠、白橙、藍、白藍、橙、白棕、棕 </t>
+兩台電腦資料對傳 用色對規則 (一頭以正常傳輸色對接法、另一頭則為以下接法) 白綠、綠、白橙、藍、白藍、橙、白棕、棕 </t>
 <t tx="yen.20161011122932.1">&lt;section&gt;
 @others
 &lt;/section&gt;</t>
@@ -1180,7 +1198,8 @@ sudo vi index.nginx-debian.html 就可更改
 &lt;br/&gt;
 把硬碟插電源
 &lt;br/&gt;
-在安裝Ubuntu</t>
+在安裝Ubuntu
+&lt;a href="https://raw.githubusercontent.com/s40523101/2017springwcm_hw/gh-pages/jpg/S_6280151959520.jpg"&gt;&lt;img src="https://raw.githubusercontent.com/s40523101/2017springwcm_hw/gh-pages/jpg/S_6280151959520.jpg"width="350" height="350" title="source: imgur.com" /&gt;&lt;/a&gt;</t>
 <t tx="yen.20161016012809.1">&lt;/section&gt;
 
 @others
