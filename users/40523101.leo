@@ -32,10 +32,20 @@
 <v t="yen.20161016023122.2"><vh>第一頁內容</vh></v>
 </v>
 <v t="amd.20161004104820.1" a="E"><vh>第二頁</vh>
-<v t="leo.20170421015127.1"><vh>第二頁內容</vh></v>
+<v t="leo.20170421015127.1" a="E"><vh>第二頁內容</vh>
+<v t="leo.20170623024724.1"><vh>newHeadline</vh></v>
+</v>
+<v t="leo.20170623024725.1" a="E"><vh>newHeadline</vh>
+<v t="leo.20170623024705.1"><vh>newHeadline</vh></v>
+</v>
 </v>
 <v t="yen.20161016004633.1" a="E"><vh>第三頁</vh>
-<v t="yen.20161016004633.4"><vh>第三頁內容</vh></v>
+<v t="yen.20161016004633.4" a="E"><vh>第三頁內容</vh>
+<v t="leo.20170623021326.1"><vh>newHeadline</vh></v>
+</v>
+<v t="leo.20170623023812.1" a="E"><vh>newHeadline</vh>
+<v t="leo.20170623023858.1"><vh>newHeadline</vh></v>
+</v>
 </v>
 <v t="yen.20161011122932.1" a="E"><vh>第四頁</vh>
 <v t="yen.20161011122601.1"><vh>第四頁內容</vh></v>
@@ -280,10 +290,9 @@ Created by [40523101](https://github.com/s40523101)
 [小組Fossil SCM倉儲](https://mde2a2.kmol.info/wcmg6/home) &lt;br/&gt;
 
 </t>
-<t tx="amd.20161004104820.1">&lt;/section&gt;
-
+<t tx="amd.20161004104820.1">&lt;section&gt;
 @others
-
+&lt;/section&gt;
 						
 </t>
 <t tx="leo.20151212173315.1"></t>
@@ -396,7 +405,12 @@ DEFAULT_DATE = 'fs'</t>
 <t tx="leo.20170421014941.2"></t>
 <t tx="leo.20170421014941.3"></t>
 <t tx="leo.20170421014941.4"></t>
-<t tx="leo.20170421015127.1"></t>
+<t tx="leo.20170421015127.1">&lt;section data-markdown&gt;
+    &lt;script type=''text/template''&gt;
+@others
+   &lt;/script&gt;
+   
+   &lt;/section&gt;</t>
 <t tx="leo.20170421115328.10">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -1006,43 +1020,186 @@ Created by [WCM6](https://github.com/s40523136/2017springwcm_g6)
 [作業倉儲](https://github.com/s40523122/2016fallcp_hw)
 
 </t>
-<t tx="yen.20161011122601.1"></t>
-<t tx="yen.20161011122932.1">&lt;/section&gt;
-
-@others
+<t tx="leo.20170623021326.1">設定網路ipv6
+&lt;br/&gt;
+Ubuntu 作業系統
+&lt;br/&gt;
+1.請按起始鍵搜尋 terminal，啟動 Terminal 操作介面
+&lt;br/&gt;
+2.sudo vi /etc/resolv.conf 指令進入設
+定 DNS 畫面
+&lt;br/&gt;
+3.行 sudo vi /etc/network/interfaces 指令進入設
+定 IP 介面
+&lt;br/&gt;
+4.重新啟動網路服務，於 terminal 操作介面執行 sudo
+&lt;br/&gt;
+/etc/init.d/networking/restart。
 </t>
-<t tx="yen.20161011125115.1">&lt;/section&gt;
-
+<t tx="leo.20170623023812.1">&lt;section data-markdown&gt;
+    &lt;script type=''text/template''&gt;
 @others
+   &lt;/script&gt;
+   
+   &lt;/section&gt;</t>
+<t tx="leo.20170623023858.1">設定網路ipv6
+&lt;br/&gt;
+[ipv6 2001:288:6004:17::7]
+&lt;br/&gt;
+2001:288:6004::1:2學校DNS
+&lt;br/&gt;
+2001:b000:168::1中華電信
+&lt;br/&gt;
+Windows 作業系統
+&lt;br/&gt;
+網路和網際網路
+&lt;br/&gt;
+變更介面卡設定
+&lt;br/&gt;
+區域連線
+&lt;br/&gt;
+網際網路通訊協定第六版
+&lt;br/&gt;
+手動設定 IPv6 位址</t>
+<t tx="leo.20170623024705.1">在nginx上redecorate
+&lt;br/&gt;
+從hppts跳轉stunnel hppts
+&lt;br/&gt;
+gedie index.nginx.debian.html
+&lt;br/&gt;
+會跑出來程式
+&lt;br/&gt;
+Edit ngnix 當標題 fomats headings var/www/html/index 貼原始碼 格式html
+&lt;br/&gt;
+跳轉1.html跳轉meta
+&lt;br/&gt;
+2.java
+&lt;br/&gt;
+3. https://8.mde.tw 使用者可點</t>
+<t tx="leo.20170623024724.1">如何啟動CMsimpy
+&lt;br/&gt;
+1.先下載vdi
+&lt;br/&gt;
+2.利用ubuntu建立
+&lt;br/&gt;
+3.在ubuntu裡面查ip if config
+&lt;br/&gt;
+cat wsgi.py 
+&lt;br/&gt;
+就可開啟 CMsimply的網頁
+&lt;br/&gt;
+就可以摸索網頁的使用
+&lt;br/&gt;
+config 改密碼
 
-						
 </t>
-<t tx="yen.20161011143808.1">&lt;/section&gt;
-
+<t tx="leo.20170623024725.1">&lt;section data-markdown&gt;
+    &lt;script type=''text/template''&gt;
 @others
-</t>
-<t tx="yen.20161011143808.2"></t>
-<t tx="yen.20161011145156.1">&lt;/section&gt;
-
+   &lt;/script&gt;
+   
+   &lt;/section&gt;</t>
+<t tx="yen.20161011122601.1">製作網路線
+&lt;br/&gt;
+首先準備好材料: 8蕊網路線 RJ-45接頭 剪刀 壓線鉗
+&lt;br/&gt;
+把網路線的外層塑膠殼剪開 裡面會有8條有顏色的線 將他們整理好並且剪到一樣長 
+&lt;br/&gt;
+網路線有2種接法
+&lt;br/&gt;
+兩種規格T568A及T586B
+&lt;br/&gt;
+一般傳輸用網路線 (兩端的網路頭皆為以下接法) 白橙、橙、白綠、藍、白藍、綠、白棕、棕 
+&lt;br/&gt;
+稱跳接法
+&lt;br/&gt;
+一頭以正常傳輸色對接法、另一頭則為以下接法) 白綠、綠、白橙、藍、白藍、橙、白棕、棕 </t>
+<t tx="yen.20161011122932.1">&lt;section&gt;
 @others
-</t>
-<t tx="yen.20161011145156.2"></t>
-<t tx="yen.20161016004633.1">&lt;/section&gt;
-
+&lt;/section&gt;</t>
+<t tx="yen.20161011125115.1">&lt;section&gt;
 @others
+&lt;/section&gt;				
 </t>
-<t tx="yen.20161016004633.4"></t>
-<t tx="yen.20161016011920.1"></t>
+<t tx="yen.20161011143808.1">&lt;section&gt;
+@others
+&lt;/section&gt;	</t>
+<t tx="yen.20161011143808.2">建立UBUNTU虛擬主機建立nginx
+&lt;br/&gt;
+sudo apt update
+&lt;br/&gt;
+sudo rm /var/lib/dpkg/lock
+&lt;br/&gt; 
+sudo apt install nginx 安裝nginx 安裝完成會有3W
+&lt;br/&gt;
+ifconfig 
+&lt;br/&gt;
+cd /var/www/htm
+&lt;br/&gt;l
+ls -l
+&lt;br/&gt;
+sudo vi index.nginx-debian.html 就可更改
+&lt;br/&gt;
+總結:下載對應的vdi虛擬檔
+&lt;br/&gt;
+啟動設定橋接網路進來做update安裝nginx
+
+</t>
+<t tx="yen.20161011145156.1">&lt;section&gt;
+@others
+&lt;/section&gt;	</t>
+<t tx="yen.20161011145156.2">心得這學期接觸到網際網路的應用
+&lt;br/&gt; 
+也更了解虛擬主機的應用
+&lt;br/&gt; 
+以及動手做接網路線
+&lt;br/&gt; 
+在接網路線的時候我們這組是第一個做好的
+&lt;br/&gt; 
+讓我感到很大的成就感
+&lt;br/&gt; </t>
+<t tx="yen.20161016004633.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+</t>
+<t tx="yen.20161016004633.4">&lt;section data-markdown&gt;
+    &lt;script type=''text/template''&gt;
+@others
+   &lt;/script&gt;
+   
+   &lt;/section&gt;</t>
+<t tx="yen.20161016011920.1">猜裝主機板
+&lt;br/&gt;
+要先拔復活卡
+&lt;br/&gt;
+拔RAM 把兩台電腦的RAM合為一台
+&lt;br/&gt;
+拔硬碟裝到另一台
+&lt;br/&gt;
+拔電池
+&lt;br/&gt;
+把硬碟插電源
+&lt;br/&gt;
+在安裝Ubuntu</t>
 <t tx="yen.20161016012809.1">&lt;/section&gt;
 
 @others
 </t>
 <t tx="yen.20161016012809.2"></t>
-<t tx="yen.20161016023122.1">&lt;/section&gt;
-
+<t tx="yen.20161016023122.1">&lt;section&gt;
 @others
-</t>
-<t tx="yen.20161016023122.2"></t>
+&lt;/section&gt;</t>
+<t tx="yen.20161016023122.2">這學期需有的軟體 
+&lt;br/&gt;
+tiny2017_1GB.7z
+&lt;br/&gt;
+Ubuntu 16.04
+&lt;br/&gt;
+vdi
+&lt;br/&gt;
+Virtual Box
+&lt;br/&gt;
+到140.130.17/public網站下載</t>
 <t tx="yen.20161022111056.1">@language python
 import os
 import subprocess
