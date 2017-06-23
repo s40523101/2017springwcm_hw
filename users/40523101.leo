@@ -281,7 +281,7 @@ print("hello")
 
 						
 </t>
-<t tx="amd.20161004095719.2">#宜欣的計算機程式課程
+<t tx="amd.20161004095719.2">#宜欣的期末報告
 
 ##四設一甲 40523101
 &lt;small&gt;
@@ -1025,7 +1025,7 @@ Created by [WCM6](https://github.com/s40523136/2017springwcm_g6)
 [作業倉儲](https://github.com/s40523122/2016fallcp_hw)
 
 </t>
-<t tx="leo.20170623021326.1">設定網路ipv6
+<t tx="leo.20170623021326.1">#設定網路ipv6
 &lt;br/&gt;
 Ubuntu 作業系統
 &lt;br/&gt;
@@ -1064,7 +1064,7 @@ Ubuntu 作業系統
 4.網際網路通訊協定第六版
 &lt;br/&gt;
 5.手動設定 IPv6 位址&lt;a href="https://raw.githubusercontent.com/s40523101/2017springwcm_hw/gh-pages/jpg/%E6%9C%AA%E5%91%BD%E5%90%8D.png"&gt;&lt;img src="https://raw.githubusercontent.com/s40523101/2017springwcm_hw/gh-pages/jpg/%E6%9C%AA%E5%91%BD%E5%90%8D.png"width="350" height="350" title="source: imgur.com" /&gt;&lt;/a&gt;</t>
-<t tx="leo.20170623024705.1">在nginx上redecorate
+<t tx="leo.20170623024705.1">#在nginx上redecorate
 &lt;br/&gt;
 從hppts跳轉stunnel hppts
 &lt;br/&gt;
@@ -1079,7 +1079,7 @@ Edit ngnix 當標題 fomats headings var/www/html/index 貼原始碼 格式html
 2.java
 &lt;br/&gt;
 3. https://8.mde.tw 使用者可點</t>
-<t tx="leo.20170623024724.1">如何啟動CMsimpy
+<t tx="leo.20170623024724.1">#如何啟動CMsimpy
 &lt;br/&gt;
 1.先下載vdi
 &lt;br/&gt;
@@ -1102,7 +1102,7 @@ config 改密碼
    &lt;/script&gt;
    
    &lt;/section&gt;</t>
-<t tx="leo.20170623041607.1">製作網路線
+<t tx="leo.20170623041607.1">#製作網路線
 &lt;br/&gt;
 首先準備好材料: 8蕊網路線 RJ-45接頭 剪刀 壓線鉗
 &lt;br/&gt;
@@ -1125,7 +1125,7 @@ config 改密碼
    &lt;/section&gt;</t>
 <t tx="yen.20161011122601.1">
 &lt;br/&gt;
-兩種規格T568A及T586B
+#兩種規格T568A及T586B
 &lt;br/&gt;
 一般傳輸用網路線 (兩端的網路頭皆為以下接法) 白橙、橙、白綠、藍、白藍、綠、白棕、棕 
 &lt;br/&gt;
@@ -1186,7 +1186,7 @@ sudo vi index.nginx-debian.html 就可更改
    &lt;/script&gt;
    
    &lt;/section&gt;</t>
-<t tx="yen.20161016011920.1">猜裝主機板
+<t tx="yen.20161016011920.1">拆裝主機板
 &lt;br/&gt;
 要先拔復活卡
 &lt;br/&gt;
@@ -1205,10 +1205,14 @@ sudo vi index.nginx-debian.html 就可更改
 @others
 </t>
 <t tx="yen.20161016012809.2"></t>
-<t tx="yen.20161016023122.1">&lt;section&gt;
+<t tx="yen.20161016023122.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
 @others
-&lt;/section&gt;</t>
-<t tx="yen.20161016023122.2">這學期需有的軟體 
+    &lt;/script&gt;
+&lt;/section&gt;
+
+</t>
+<t tx="yen.20161016023122.2">#這學期需有的軟體 
 &lt;br/&gt;
 tiny2017_1GB.7z
 &lt;br/&gt;
