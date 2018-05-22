@@ -279,6 +279,158 @@ init_mathjax();
         <div class="col-sm-9">
 
             <article>
+                <h2><a href="../liang-chi-nie-he.html">兩齒嚙合</a></h2>
+                <div class="summary"><p>1234</p>
+<script type="text/javascript" src="https://brython.info/src/brython_dist.js"></script>
+
+<script type="text/javascript" src="https://2015fallhw.github.io/cptocadp/static/Cango-8v03.js"></script>
+
+<script type="text/javascript" src="https://2015fallhw.github.io/cptocadp/static/Cango2D-7v01-min.js"></script>
+
+<script type="text/javascript" src="https://2015fallhw.github.io/cptocadp/static/gearUtils-05.js"></script>
+
+<script>
+window.onload=function(){
+brython(1);
+}
+</script>
+
+<div id="containerz"></div>
+
+<canvas id='gear1' width='800' height='750'></canvas>
+
+<!-- 以下處理 Cango Spur Gear -->
+
+<p></p>
+<!-- Cango 程式庫 --></p>
+<script type="text/javascript" src="./../data/w11/cango
+/Cango-9v05-min.js"></script>
+
+<script type="text/javascript" src="./../data/w11/cango
+/CangoAxes-2v09.js"></script>
+
+<script type="text/javascript" src="./../data/w11/cango
+/CangoAnimation-5v00.js"></script>
+
+<script type="text/javascript" src="./../data/w11/cango
+/gearUtils-05.js"></script>
+
+<canvas id='gear1' width='800' height='750'></canvas>
+
+<script type="text/python">
+# 將 導入的 document 設為 doc 主要原因在於與舊程式碼相容
+from browser import document as doc
+# 由於 Python3 與 Javascript 程式碼已經不再混用, 因此來自 Javascript 的變數, 必須居中透過 window 物件轉換
+from browser import window
+# 針對 Javascript 既有的物件, 則必須透過 JSConstructor 轉換
+from javascript import JSConstructor
+import math
+
+# 主要用來取得畫布大小
+canvas = doc["gear1"]
+# 此程式採用 …</script>
+                    <a class="btn btn-default btn-xs" href="../liang-chi-nie-he.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="../liang-chi-nie-he-dong-tai-hui-tu.html">兩齒嚙合動態繪圖</a></h2>
+                <div class="summary"><p>2333445</p>
+<script type="text/javascript" src="https://brython.info/src/brython_dist.js"></script>
+
+<script type="text/javascript" src="https://2015fallhw.github.io/cptocadp/static/Cango-8v03.js"></script>
+
+<script type="text/javascript" src="https://2015fallhw.github.io/cptocadp/static/Cango2D-7v01-min.js"></script>
+
+<script type="text/javascript" src="https://2015fallhw.github.io/cptocadp/static/gearUtils-05.js"></script>
+
+
+                    <a class="btn btn-default btn-xs" href="../liang-chi-nie-he-dong-tai-hui-tu.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="../liang-chi-nie-he-jing-tai-hui-tu.html">兩齒嚙合靜態繪圖</a></h2>
+                <div class="summary"><p>50t 與 25t 的齒輪嚙合靜態輪廓圖</p>
+<script type="text/javascript" src="https://brython.info/src/brython_dist.js"></script>
+
+<script type="text/javascript" src="https://2015fallhw.github.io/cptocadp/static/Cango-8v03.js"></script>
+
+<script type="text/javascript" src="https://2015fallhw.github.io/cptocadp/static/Cango2D-7v01-min.js"></script>
+
+<script type="text/javascript" src="https://2015fallhw.github.io/cptocadp/static/gearUtils-05.js"></script>
+
+<script>
+window.onload=function(){
+brython(1);
+}
+</script>
+
+<canvas id='gear1' width='800' height='750'></canvas>
+
+<script type="text/python">
+# 將 導入的 document 設為 doc 主要原因在於與舊程式碼相容
+from browser import document as doc
+# 由於 Python3 與 Javascript 程式碼已經不再混用, 因此來自 Javascript 的變數, 必須居中透過 window 物件轉換
+from browser import window
+# 針對 Javascript 既有的物件, 則必須透過 JSConstructor 轉換
+from javascript import JSConstructor
+import math
+
+# 主要用來取得畫布大小
+canvas …</script>
+                    <a class="btn btn-default btn-xs" href="../liang-chi-nie-he-jing-tai-hui-tu.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="../jian-kai-xian-chi-lun.html">漸開線齒輪</a></h2>
+                <div class="summary"><script type="text/javascript" src="https://brython.info/src/brython_dist.js"></script>
+
+<script type="text/javascript" src="https://2015fallhw.github.io/cptocadp/static/Cango-8v03.js"></script>
+
+<script type="text/javascript" src="https://2015fallhw.github.io/cptocadp/static/Cango2D-7v01-min.js"></script>
+
+<script type="text/javascript" src="https://2015fallhw.github.io/cptocadp/static/gearUtils-05.js"></script>
+
+<h2>利用漸開線原理, 以 Brython 繪製單一正齒輪廓:11齒</h2>
+<!-- 導入 Brython 標準程式庫 -->
+
+<script src="../data/Brython-3.3.1/brython.js"></script>
+
+<script src="../data/Brython-3.3.1/brython_stdlib.js"></script>
+
+<!-- 啟動 Brython -->
+
+<script>
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+</script>
+
+<!-- 以下實際利用  Brython 繪圖-->
+
+<canvas id="onegear" width="800" height="600"></canvas>
+
+<div id="onegear_div" width="800" height="20"></div>
+
+<script type="text/python3">
+from browser import document as doc
+import math
+# deg 為角度轉為徑度的轉換因子
+deg = math.pi/180.
+# 定義 Spur 類別
+class Spur(object):
+    def __init__(self, ctx):
+        self.ctx = ctx
+
+    def create_line(self, x1, y1 …</script>
+                    <a class="btn btn-default btn-xs" href="../jian-kai-xian-chi-lun.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
                 <h2><a href="../jian-su-chi-lun.html">減速齒輪</a></h2>
                 <div class="summary"><p>協同 2D 正齒輪傳動繪圖</p>
 
@@ -359,36 +511,16 @@ init_mathjax();
                 </div>
             </article>
             <hr/>
-            <article>
-                <h2><a href="../zai-ubuntuli-mian-ji-ben-cao-zuo.html">在Ubuntu裡面基本操作</a></h2>
-                <div class="summary"><p>cd 跟目錄</p>
-<p>pwd 印出現在的工作目錄</p>
-<p>clear 刷新</p>
-<p>history 舊指令 </p>
-<p>history&gt;his txt 存成</p>
-<p>cat his.txt lmore 顯示</p>
-<p>j往下</p>
-<p>k往上</p>
-<p>右L</p>
-<p>刪除S </p>
-                    <a class="btn btn-default btn-xs" href="../zai-ubuntuli-mian-ji-ben-cao-zuo.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
-            <article>
-                <h2><a href="../he-wei-ji-jie-she-ji.html">何謂機械設計</a></h2>
-                <div class="summary"><p>設計是一種表達，產生內容可去做機密配置
-表達方式，口語、文字、2D、理論、實體、軟體。
-機：很多元件組成可達成精巧配置</p>
-<p>械：控制在一個範圍有固定功能 </p>
-<p>設：必須明確表達結果之具體規劃</p>
-<p>計：經過詳細思慮考量過程</p>
-<p>利用虛實整合的機械設計工程師</p>
-                    <a class="btn btn-default btn-xs" href="../he-wei-ji-jie-she-ji.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
 
+        <ul class="pagination">
+                <li class="prev disabled"><a href="#">&laquo;</a></li>
+                    <li class="active"><a
+                            href="../tag/ji-jie-she-ji.html">1</a></li>
+                    <li class=""><a
+                            href="../tag/ji-jie-she-ji2.html">2</a></li>
+                <li class="next"><a
+                        href="../tag/ji-jie-she-ji2.html">&raquo;</a></li>
+        </ul>
         </div>
         <div class="col-sm-3" id="sidebar">
             <aside>
@@ -399,28 +531,28 @@ init_mathjax();
             <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
                 <ul class="list-group" id="recentposts">
                     <li class="list-group-item">
+                        <a href="../liang-chi-nie-he.html">
+                            兩齒嚙合
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="../liang-chi-nie-he-dong-tai-hui-tu.html">
+                            兩齒嚙合動態繪圖
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="../liang-chi-nie-he-jing-tai-hui-tu.html">
+                            兩齒嚙合靜態繪圖
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="../jian-kai-xian-chi-lun.html">
+                            漸開線齒輪
+                        </a>
+                    </li>
+                    <li class="list-group-item">
                         <a href="../jian-su-chi-lun.html">
                             減速齒輪
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="../ru-he-jie-wang-lu-xian.html">
-                            如何接網路線
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="../ru-he-li-yong-fossil-scm-guan-li-mp4cheng-shi-ma.html">
-                            如何利用 Fossil SCM 管理MP4程式碼
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="../fossilbi-ji.html">
-                            fossil筆記
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="../jian-li-si-fu-qi-bu-zou.html">
-                            建立伺服器步驟
                         </a>
                     </li>
                 </ul>
