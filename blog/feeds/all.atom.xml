@@ -14,24 +14,31 @@ brython(1);
 }
 &lt;/script&gt;
 
-&lt;div id="containerz"&gt;&lt;/div&gt;
+&lt;div id="container"&gt;&lt;/div&gt;
+
+&lt;script type="text/python" src="http://cadlab.mde.tw/post/by/spur.js" id="spurmain"&gt;&lt;/script&gt;
+
+&lt;script type="text/python"&gt;
+import spurmain
+from browser import document, html
 
 &lt;canvas id='gear1' width='800' height='750'&gt;&lt;/canvas&gt;
 
-&lt;!-- 以下處理 Cango Spur Gear --&gt;
 
-&lt;p&gt;&lt;/p&gt;
-&lt;!-- Cango 程式庫 --&gt;&lt;/p&gt;
-&lt;script type="text/javascript" src="./../data/w11/cango
+
+&lt;!-- 以下處理 Cango Spur Gear --&gt;&lt;/p&gt;
+&lt;!-- Cango 程式庫 --&gt;
+
+&lt;script type="text/javascript" src="./../w11/cango
 /Cango-9v05-min.js"&gt;&lt;/script&gt;
 
-&lt;script type="text/javascript" src="./../data/w11/cango
+&lt;script type="text/javascript" src="./../w11/cango
 /CangoAxes-2v09.js"&gt;&lt;/script&gt;
 
-&lt;script type="text/javascript" src="./../data/w11/cango
+&lt;script type="text/javascript" src="./../w11/cango
 /CangoAnimation-5v00.js"&gt;&lt;/script&gt;
 
-&lt;script type="text/javascript" src="./../data/w11/cango
+&lt;script type="text/javascript" src="./../w11/cango
 /gearUtils-05.js"&gt;&lt;/script&gt;
 
 &lt;canvas id='gear1' width='800' height='750'&gt;&lt;/canvas&gt;
@@ -39,15 +46,7 @@ brython(1);
 &lt;script type="text/python"&gt;
 # 將 導入的 document 設為 doc 主要原因在於與舊程式碼相容
 from browser import document as doc
-# 由於 Python3 與 Javascript 程式碼已經不再混用, 因此來自 Javascript 的變數, 必須居中透過 window 物件轉換
-from browser import window
-# 針對 Javascript 既有的物件, 則必須透過 JSConstructor 轉換
-from javascript import JSConstructor
-import math
-
-# 主要用來取得畫布大小
-canvas = doc["gear1"]
-# 此程式採用 …&lt;/script&gt;</summary><content type="html">&lt;p&gt;1234&lt;/p&gt;
+# 由於 …&lt;/script&gt;</summary><content type="html">&lt;p&gt;1234&lt;/p&gt;
 &lt;script type="text/javascript" src="https://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
 
 &lt;script type="text/javascript" src="https://2015fallhw.github.io/cptocadp/static/Cango-8v03.js"&gt;&lt;/script&gt;
@@ -62,24 +61,31 @@ brython(1);
 }
 &lt;/script&gt;
 
-&lt;div id="containerz"&gt;&lt;/div&gt;
+&lt;div id="container"&gt;&lt;/div&gt;
+
+&lt;script type="text/python" src="http://cadlab.mde.tw/post/by/spur.js" id="spurmain"&gt;&lt;/script&gt;
+
+&lt;script type="text/python"&gt;
+import spurmain
+from browser import document, html
 
 &lt;canvas id='gear1' width='800' height='750'&gt;&lt;/canvas&gt;
 
-&lt;!-- 以下處理 Cango Spur Gear --&gt;
 
-&lt;p&gt;&lt;/p&gt;
-&lt;!-- Cango 程式庫 --&gt;&lt;/p&gt;
-&lt;script type="text/javascript" src="./../data/w11/cango
+
+&lt;!-- 以下處理 Cango Spur Gear --&gt;&lt;/p&gt;
+&lt;!-- Cango 程式庫 --&gt;
+
+&lt;script type="text/javascript" src="./../w11/cango
 /Cango-9v05-min.js"&gt;&lt;/script&gt;
 
-&lt;script type="text/javascript" src="./../data/w11/cango
+&lt;script type="text/javascript" src="./../w11/cango
 /CangoAxes-2v09.js"&gt;&lt;/script&gt;
 
-&lt;script type="text/javascript" src="./../data/w11/cango
+&lt;script type="text/javascript" src="./../w11/cango
 /CangoAnimation-5v00.js"&gt;&lt;/script&gt;
 
-&lt;script type="text/javascript" src="./../data/w11/cango
+&lt;script type="text/javascript" src="./../w11/cango
 /gearUtils-05.js"&gt;&lt;/script&gt;
 
 &lt;canvas id='gear1' width='800' height='750'&gt;&lt;/canvas&gt;

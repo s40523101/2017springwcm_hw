@@ -170,13 +170,13 @@ init_mathjax();
 
         <meta name="author" content="江宜欣" />
         <meta name="keywords" content="機械設計" />
-        <meta name="description" content="1234 window.onload=function(){ brython(1); } # 將 導入的 document 設為 doc 主要原因在於與舊程式碼相容 from browser import document as doc # 由於 Python3 與 Javascript 程式碼已經不再混用, 因此來自 Javascript 的變數, 必須居中透過 window 物件轉換 from browser import window # 針對 Javascript 既有的物件, 則必須透過 JSConstructor 轉換 from javascript import JSConstructor import math # 主要用來取得畫布大小 canvas = doc[&#34;gear1&#34;] # 此程式採用 …" />
+        <meta name="description" content="1234 window.onload=function(){ brython(1); } import spurmain from browser import document, html # 將 導入的 document 設為 doc 主要原因在於與舊程式碼相容 from browser import document as doc # 由於 …" />
 
         <meta property="og:site_name" content="水丹丹" />
         <meta property="og:type" content="article"/>
         <meta property="og:title" content="兩齒嚙合"/>
         <meta property="og:url" content="./liang-chi-nie-he.html"/>
-        <meta property="og:description" content="1234 window.onload=function(){ brython(1); } # 將 導入的 document 設為 doc 主要原因在於與舊程式碼相容 from browser import document as doc # 由於 Python3 與 Javascript 程式碼已經不再混用, 因此來自 Javascript 的變數, 必須居中透過 window 物件轉換 from browser import window # 針對 Javascript 既有的物件, 則必須透過 JSConstructor 轉換 from javascript import JSConstructor import math # 主要用來取得畫布大小 canvas = doc[&#34;gear1&#34;] # 此程式採用 …"/>
+        <meta property="og:description" content="1234 window.onload=function(){ brython(1); } import spurmain from browser import document, html # 將 導入的 document 設為 doc 主要原因在於與舊程式碼相容 from browser import document as doc # 由於 …"/>
         <meta property="article:published_time" content="2018-05-22" />
             <meta property="article:section" content="論述" />
             <meta property="article:tag" content="機械設計" />
@@ -327,24 +327,31 @@ brython(1);
 }
 </script>
 
-<div id="containerz"></div>
+<div id="container"></div>
+
+<script type="text/python" src="http://cadlab.mde.tw/post/by/spur.js" id="spurmain"></script>
+
+<script type="text/python">
+import spurmain
+from browser import document, html
 
 <canvas id='gear1' width='800' height='750'></canvas>
 
-<!-- 以下處理 Cango Spur Gear -->
 
-<p></p>
-<!-- Cango 程式庫 --></p>
-<script type="text/javascript" src="./../data/w11/cango
+
+<!-- 以下處理 Cango Spur Gear --></p>
+<!-- Cango 程式庫 -->
+
+<script type="text/javascript" src="./../w11/cango
 /Cango-9v05-min.js"></script>
 
-<script type="text/javascript" src="./../data/w11/cango
+<script type="text/javascript" src="./../w11/cango
 /CangoAxes-2v09.js"></script>
 
-<script type="text/javascript" src="./../data/w11/cango
+<script type="text/javascript" src="./../w11/cango
 /CangoAnimation-5v00.js"></script>
 
-<script type="text/javascript" src="./../data/w11/cango
+<script type="text/javascript" src="./../w11/cango
 /gearUtils-05.js"></script>
 
 <canvas id='gear1' width='800' height='750'></canvas>
