@@ -278,71 +278,95 @@ init_mathjax();
         <div class="col-sm-9">
 
             <article>
-                <h2><a href="./liang-chi-nie-he.html">兩齒嚙合</a></h2>
-                <div class="summary"><p>1234</p>
-<script type="text/javascript" src="https://brython.info/src/brython_dist.js"></script>
+                <h2><a href="./yong-shu-zhi-kong-zhi-chi-lun-pei-he.html">用數值控制齒輪配合</a></h2>
+                <div class="summary"><p>網際正齒輪組傳動繪圖</p>
 
-<script type="text/javascript" src="https://2015fallhw.github.io/cptocadp/static/Cango-8v03.js"></script>
+<!-- 導入 Brython 標準程式庫 -->
 
-<script type="text/javascript" src="https://2015fallhw.github.io/cptocadp/static/Cango2D-7v01-min.js"></script>
+<script src="./../data/Brython-3.3.1/brython.js"></script>
 
-<script type="text/javascript" src="https://2015fallhw.github.io/cptocadp/static/gearUtils-05.js"></script>
+<script src="./../data/Brython-3.3.1/brython_stdlib.js"></script>
+
+<!-- 啟動 Brython -->
 
 <script>
 window.onload=function(){
-brython(1);
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
 }
 </script>
 
-<div id="container"></div>
+<canvas id="onegear2" width="800" height="600"></canvas>
 
-<script type="text/python" src="http://cadlab.mde.tw/post/by/spur.js" id="spurmain"></script>
+<div id="onegear2_div" width="800" height="20"></div>
 
-<script type="text/python">
-import spurmain
-from browser import document, html
+<p><input id="n1" value="13"></input><br />
+<input id="n2" value="11"></input><br />
+<input id="n3" value="17"></input><br />
+<button id="button">Set Number of Gears</button></p>
 
-<canvas id='gear1' width='800' height='750'></canvas>
-
-
-
-<!-- 以下處理 Cango Spur Gear --></p>
-<!-- Cango 程式庫 -->
-
-<script type="text/javascript" src="./../w11/cango
-/Cango-9v05-min.js"></script>
-
-<script type="text/javascript" src="./../w11/cango
-/CangoAxes-2v09.js"></script>
-
-<script type="text/javascript" src="./../w11/cango
-/CangoAnimation-5v00.js"></script>
-
-<script type="text/javascript" src="./../w11/cango
-/gearUtils-05.js"></script>
-
-<canvas id='gear1' width='800' height='750'></canvas>
-
-<script type="text/python">
-# 將 導入的 document 設為 doc 主要原因在於與舊程式碼相容
+<script type="text/python3">
 from browser import document as doc
-# 由於 …</script>
-                    <a class="btn btn-default btn-xs" href="./liang-chi-nie-he.html">more ...</a>
+from browser import html
+import math
+# deg 為角度轉為徑度的轉換因子
+deg = math.pi/180.
+# 定義 Spur 類別
+class Spur(object):
+    def __init__(self, ctx):
+        self.ctx = ctx
+
+    def …</script>
+                    <a class="btn btn-default btn-xs" href="./yong-shu-zhi-kong-zhi-chi-lun-pei-he.html">more ...</a>
                 </div>
             </article>
             <hr/>
             <article>
                 <h2><a href="./liang-chi-nie-he-dong-tai-hui-tu.html">兩齒嚙合動態繪圖</a></h2>
-                <div class="summary"><p>2333445</p>
-<script type="text/javascript" src="https://brython.info/src/brython_dist.js"></script>
+                <div class="summary"><p>11嚙合動態繪圖</p>
+<!-- 導入 Brython 標準程式庫 -->
 
-<script type="text/javascript" src="https://2015fallhw.github.io/cptocadp/static/Cango-8v03.js"></script>
+<script src="../data/Brython-3.3.1/brython.js"></script>
 
-<script type="text/javascript" src="https://2015fallhw.github.io/cptocadp/static/Cango2D-7v01-min.js"></script>
+<script src="../data/Brython-3.3.1/brython_stdlib.js"></script>
 
-<script type="text/javascript" src="https://2015fallhw.github.io/cptocadp/static/gearUtils-05.js"></script>
+<!-- 啟動 Brython -->
 
+<script>
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+</script>
 
+<!-- 以下處理 Cango Spur Gear -->
+
+<!-- Cango 程式庫 -->
+
+<script type="text/javascript" src="./../data/w11/cango
+/Cango-9v05-min.js"></script>
+
+<script type="text/javascript" src="./../data/w11/cango
+/CangoAxes-2v09.js"></script>
+
+<script type="text/javascript" src="./../data/w11/cango
+/CangoAnimation-5v00.js"></script>
+
+<script type="text/javascript" src="./../data/w11/cango
+/gearUtils-05.js"></script>
+
+<canvas id='cango_gear' width='800' height='750'></canvas>
+
+<script type="text/python">
+# 將 導入的 document 設為 doc 主要原因在於與舊程式碼相容
+from browser import document as doc
+# 由於 Python3 與 Javascript 程式碼已經不再混用, 因此來自 Javascript 的變數, 必須居中透過 window 物件轉換
+from browser import window
+import math
+
+# 主要用來取得畫布大小
+canvas = doc["cango_gear"]
+# 此程式採用 Cango Javascript …</script>
                     <a class="btn btn-default btn-xs" href="./liang-chi-nie-he-dong-tai-hui-tu.html">more ...</a>
                 </div>
             </article>
@@ -515,8 +539,8 @@ class Spur(object):
             <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
                 <ul class="list-group" id="recentposts">
                     <li class="list-group-item">
-                        <a href="./liang-chi-nie-he.html">
-                            兩齒嚙合
+                        <a href="./yong-shu-zhi-kong-zhi-chi-lun-pei-he.html">
+                            用數值控制齒輪配合
                         </a>
                     </li>
                     <li class="list-group-item">
